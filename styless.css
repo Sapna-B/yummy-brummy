@@ -24,10 +24,12 @@ div.contrast {
 }
 
 #header1 {
-  padding: 20px;
+  position: absolute;
   text-align: center;
+  bottom: 80%;
+  left: 25%;
   font-size: 90px;
-
+  color:white;
 }
 
 h1 {
@@ -47,19 +49,19 @@ h1, h2 {
 .nav-ul{
 list-style: none;
 overflow: hidden;
-background-color: #333;
+background-color: rgb(155,155,255);
 }
 
 .nav-ul li {
-  float: left;
-  font-size: 35px;
-
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 25px;
 }
 
 .nav-ul a {
-  display: block;
+  display: flex;
   color: white;
-  text-align: center;
+  justify-content: center;
   padding: 8px;
   color: #dddddd;
   text-decoration: none;
@@ -67,7 +69,9 @@ background-color: #333;
   }
 
 .nav-ul a:hover {
+  font-size: 1.2em;
   background-color: #111;
+  transition: 0.6s ease;
 }
 
 .small-size{
