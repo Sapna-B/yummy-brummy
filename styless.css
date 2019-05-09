@@ -2,6 +2,7 @@ body {
   color: rgb(65,75,86);
   font-family: arial, helvetica, sans-serif;
   margin: 0px;
+  background-color: rgb(155,155,255);
   }
 
 .banner {
@@ -12,8 +13,7 @@ body {
 .banner > .banner-image {
   max-width: 100%;
   display: block;
-  height: auto;
-  opacity: 0.6;
+  max-height: 100%;
 }
 
 .header-text{
@@ -43,24 +43,23 @@ ul {
 
 .nav-ul li {
   display: inline-block;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 25px;
 }
 
 .nav-ul a {
   display: flex;
   color: white;
-  justify-content: center;
   padding: 8px;
   color: #dddddd;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 14px 20px;
   }
 
 li:hover {
   font-size: 1.2em;
-  background-color: #111;
-  transition: 0.6s ease;
+  background-color: rgb(135,144,156);
+  transition: 0.7s ease;
 }
 
 .small-size{
