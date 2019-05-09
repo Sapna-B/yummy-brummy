@@ -87,3 +87,18 @@ input[type=text]:focus, input[type=password]:focus {
  .checkbox {
 color: #123cc9;
  }
+
+/* Review Page grid images */
+
+.cover-link {
+  width: 300px;
+}
+.row {
+  display: flex;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 5px;
+}
