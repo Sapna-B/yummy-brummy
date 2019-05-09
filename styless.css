@@ -89,8 +89,8 @@ color: #123cc9;
  }
 
 /* Review Page grid images */
-
-.cover-link {
+img {
+  margin-left: 20px;
   width: 300px;
 }
 .row {
