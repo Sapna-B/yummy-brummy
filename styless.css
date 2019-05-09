@@ -25,29 +25,20 @@ body {
   text-align: center;
 }
 
-#header1 {
-  position: absolute;
-  text-align: center;
-  bottom: 80%;
-  left: 25%;
-  font-size: 90px;
-  color:white;
-}
-
 h1 {
   font-size: 50px;
 }
 
 h1, h2 {
   text-align: center;
-  padding: 20px;
 }
 
-/* Navigation Bar fgh*/
-.nav-ul{
-list-style: none;
-overflow: hidden;
-background-color: rgb(155,155,255);
+ul {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px 0px
 }
 
 .nav-ul li {
@@ -66,7 +57,7 @@ background-color: rgb(155,155,255);
   padding: 14px 16px;
   }
 
-.nav-ul a:hover {
+li:hover {
   font-size: 1.2em;
   background-color: #111;
   transition: 0.6s ease;
@@ -107,3 +98,18 @@ input[type=text]:focus, input[type=password]:focus {
  .checkbox {
 color: #123cc9;
  }
+
+/* Review Page grid images */
+
+.cover-link {
+  width: 300px;
+}
+.row {
+  display: flex;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 5px;
+}
