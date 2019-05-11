@@ -92,7 +92,9 @@ color: #123cc9;
 
 .cover-link {
   width: 300px;
+  padding-left: 20px;
 }
+
 .row {
   display: flex;
   padding: 0 5px;
@@ -101,4 +103,12 @@ color: #123cc9;
 .column {
   flex: 50%;
   padding: 0 5px;
+}
+
+.rotateimg270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
