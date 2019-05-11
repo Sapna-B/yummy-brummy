@@ -1,5 +1,5 @@
 body {
-  color: rgb(65,75,86);
+  color: rgb(0,0,0);
   font-family: arial, helvetica, sans-serif;
   margin: 0px;
   background-color: rgb(226,125,96) !important;
@@ -17,7 +17,7 @@ body {
 }
 
 .header-text{
-  font-size: 90px;
+  font-size: 8vw;
   position: absolute;
   text-align: center;
   top: 60px;
@@ -62,14 +62,6 @@ h2 {
 
 .small-size{
   font-size: 20px;
-}
-
-/* Sign up page */
-#bg {
-  background-image: url('img/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 /* Sign up page Form */
