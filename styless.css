@@ -112,3 +112,8 @@ color: #123cc9;
   flex: 50%;
   padding: 0 5px;
 }
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
