@@ -90,16 +90,26 @@ color: #123cc9;
 
 /* Review Page grid images */
 
+#header2 {
+  margin-bottom: 9px;
+  padding: 5px;
+  font-size: 30px;
+  font-style: italic;
+}
+
 img {
   width: 400px;
+  height: 500px;
+
 }
 .column {
-  float: left;
-  width: 35%;
+  margin-left: 1%;
+
+  width: 40%;
   padding: 5px;
 }
 
 .row {
-  clear: both;
-  display: table;
+display: flex;
+
 }
