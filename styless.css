@@ -100,14 +100,13 @@ color: #123cc9;
 
 .column img {
 width: 400px;
-height: 575px;
+height: 600px;
 display: block;
 }
 
 .column {
-padding-left: 2px;
   float: left;
-  width: 33.3%;
+  width: 33%;
   padding: 5px;
 }
 
