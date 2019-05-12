@@ -89,16 +89,13 @@ color: #123cc9;
  }
 
 /* Review Page grid images */
-img {
-  margin-left: 20px;
-  width: 300px;
-}
-.row {
-  display: flex;
-  padding: 0 5px;
+.column {
+  float: left;
+  width: 35%;
+  padding: 5px;
 }
 
-.column {
-  flex: 50%;
-  padding: 0 5px;
+.row {
+  clear: both;
+  display: table;
 }
