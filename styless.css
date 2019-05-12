@@ -89,6 +89,10 @@ color: #123cc9;
  }
 
 /* Review Page grid images */
+
+img {
+  width: 300px;
+}
 .column {
   float: left;
   width: 35%;
