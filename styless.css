@@ -105,7 +105,15 @@ display: block;
 }
 
 .column {
+padding-left: 2px;
   float: left;
   width: 33.3%;
   padding: 5px;
+}
+
+.row::after{
+  margin-left: 2px;
+content: "";
+clear: both;
+display: table;
 }
