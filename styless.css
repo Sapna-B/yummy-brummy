@@ -93,23 +93,19 @@ color: #123cc9;
  #header2 {
   margin-bottom: 9px;
   padding: 5px;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
+  color: grey;
 }
 
-.column.img {
-  width: 400px;
-  height: 500px;
+.column img {
+width: 400px;
+height: 575px;
+display: block;
 }
 
 .column {
-  margin-left: 3%;
   float: left;
-  width: 35%
-
+  width: 33.3%;
   padding: 5px;
-}
-
-.row {
-display: table;
 }
