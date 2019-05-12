@@ -97,7 +97,7 @@ color: #123cc9;
   font-style: italic;
 }
 
-img {
+.column.img {
   width: 400px;
   height: 500px;
 }
@@ -112,11 +112,4 @@ img {
 
 .row {
 display: table;
-
-}
-
-.column img {
-
-  margin-top: 8px;
-
 }
