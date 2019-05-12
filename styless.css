@@ -1,7 +1,8 @@
 body {
-  color: rgb(65,75,86);
+  color: rgb(0,0,0);
   font-family: arial, helvetica, sans-serif;
   margin: 0px;
+  background-color: rgb(226,125,96) !important;
   }
 
 .banner {
@@ -12,56 +13,55 @@ body {
 .banner > .banner-image {
   max-width: 100%;
   display: block;
-  height: auto;
-  opacity: 0.6;
+  max-height: 100%;
 }
 
 .header-text{
+  font-size: 8vw;
   position: absolute;
-  top: 150px;
-  left: 50px;
-  right: 50px;
-  color:rgb(0, 0, 0);
   text-align: center;
+  top: 60px;
+  left: 60px;
+  right: 60px;
+  color:rgb(226,125,96);
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h1, h2 {
+h2 {
   text-align: center;
+  color: rgb(144, 209, 196);
+  font-size: 50px !important;
 }
 
-ul {
-  font-size: 20px;
+-/* Navigation Bar fgh*/
+.nav-ul {
   list-style: none;
+  overflow: hidden;
+  background-color: rgb(155,155,255);
+  font-size: 20px;
   display: flex;
-  justify-content: center;
   padding: 0px 20px 0px
 }
 
-li {
-  margin: 0 20px;
-  transition: 0.6s ease;
+.nav-ul li {
+  display: inline-block;
+  font-size: 25px;
 }
 
+.nav-ul a {
+  display: flex;
+  color: rgb(226,125,96);
+  text-decoration: none;
+  padding: 14px 20px;
+  }
 
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
+.nav-ul li:hover {
+  font-size: 1.3em;
+  background-color: rgb(214,214,214);
+  transition: 0.7s ease;
 }
 
 .small-size{
-  font-size: 15px;
-}
-
-/* Sign up page */
-#bg {
-  background-image: url('img/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  font-size: 20px;
 }
 
 /* Sign up page Form */
@@ -97,6 +97,8 @@ color: #123cc9;
   font-style: italic;
 }
 
+}
+
 img {
   width: 400px;
   height: 500px;
@@ -112,4 +114,9 @@ img {
 .row {
 display: flex;
 
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
