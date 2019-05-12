@@ -116,3 +116,12 @@ content: "";
 clear: both;
 display: table;
 }
+
+.text-block {
+
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+
+}
