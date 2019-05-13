@@ -20,7 +20,7 @@ body {
   font-size: 8vw;
   position: absolute;
   text-align: center;
-  top: 60px;
+  top: 0.5em;
   left: 60px;
   right: 60px;
   color:rgb(226,125,96);
@@ -67,8 +67,8 @@ h2 {
 /* Sign up page Form */
 .container {
   padding: 30px;
-border: 3px solid black;
-font-weight: bold;
+  border: 3px solid black;
+  font-weight: bold;
 }
 
 input[type=text], input[type=password] {
@@ -93,35 +93,84 @@ color: #123cc9;
  #header2 {
   margin-bottom: 9px;
   padding: 5px;
-  font-size: 20px;
+  font-size: 2vw !important;
   font-style: italic;
-  color: grey;
-}
-
-.column img {
-width: 400px;
-height: 600px;
-display: block;
+  color: rgb(144, 209, 196);
 }
 
 .column {
   float: left;
   width: 33%;
-  padding: 5px;
+  padding: 15px;
+}
+
+.column img {
+  width: 325px;
+  height: 400px;
+  padding-left: 40px;
+  display: block;
+}
+
+.rotateimg270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.container-fluid {
+  position: relative;
+  padding: none;
+  border:none;
+  box-shadow: none;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-fluid:hover .image {
+  opacity: 0.3;
+}
+
+.container-fluid:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
 }
 
 .row::after{
   margin-left: 2px;
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .text-block {
-
+  float: right;
   bottom: 20px;
   right: 20px;
-  background-color: black;
+  background-color: rgb(226,125,96);
   color: white;
-
 }
