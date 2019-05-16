@@ -95,12 +95,6 @@ h2 {
 
 
 
-
-
-
-
-
-
 /* Sign up page Form */
 .container {
   padding: 30px;
@@ -232,5 +226,33 @@ color: #123cc9;
   bottom: 20px;
   right: 20px;
   background-color: rgb(226,125,96);
-  color: white;
+color: white;
+
+
+}
+
+
+/* ICONS */
+
+.footer {
+padding: 20px;
+font-size: 30px;
+width: 90px;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+.footer:hover {
+  opacity: 0.7;
+}
+
+.footer ul {
+  list-style: none;
+
+}
+
+.footer img {
+  display: block;
 }

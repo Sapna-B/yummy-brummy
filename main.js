@@ -1,1 +1,1 @@
-$("h1").hide();
+alert("Hi welcome to our website")
