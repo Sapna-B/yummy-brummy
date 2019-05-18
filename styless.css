@@ -237,34 +237,40 @@ color: white;
 .icons ul {
   display: flex;
   position: absolute;
-transform: translate(350%, 350%);
-}
+  right: 66.6%;
+transform: translate(100%, 100%);
 
+}
 .icons ul li {
   list-style: none;
 }
 
 .icons ul li a {
-  width: 100px;
+  width: 80px;
   height: 80px;
-  /*background: #ddd; */
+  background: #fff;
+
   text-align: center;
-  border-radius: 50%;
+  margin: 0 2px;
+  border-radius: 10px;
 position: relative;
 overflow: hidden;
-border: 1px solid #fff;
+border: 3px solid #fff;
 
+font-size:  50px;
+z-index: 2;
 }
 
 
 .icons ul li a .fab {
   position: relative;
   color: #262626;
-  transition: .8s;
+  transition: .5s;
 
 }
 
 .icons ul li a:hover .fab {
+color: #fff;
   transform: rotateY(360deg);
 
 }
@@ -272,7 +278,48 @@ border: 1px solid #fff;
 .icons ul li a::before {
   content: "";
   position: absolute;
-  top: 100%;
-  bottom: 0%;
+  top: 100;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+
+}
+
+.icons ul li a:hover::before {
+
+  top: 0;
+
+}
+
+.icons ul li:nth-child(1) a:before {
+  background: #3b5998;
+}
+
+.icons ul li:nth-child(2) a:before {
+  background: #ffff00;
+}
+
+.icons ul li:nth-child(3) a::before {
+  background: #3f729b;
+}
+.icons ul li:nth-child(4) a::before {
+  background: #e95950;
+}
+
+.icons ul li:nth-child(5) a::before {
+  background: #cb2027;
+}
+
+.icons ul li:nth-child(6) a::before {
+background: #55acee;
+}
+
+.icons ul li:nth-child(7) a::before {
+background: #ff0000;
+}
+
+.icons ul li:nth-child(8) a::before {
+background: #32506d;
 }
