@@ -70,15 +70,16 @@ h2 {
 }
 
 /* button */
-.button {
+#button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+
+
 }
 
 /* Search Bar */
@@ -235,9 +236,10 @@ color: #123cc9;
   display: flex;
   justify-content: flex-end;
   justify-content: space-evenly;
-  padding-top: 13em;
+  padding-top: 12em;
   padding-left: 25em;
   padding-right: 20em;
+
 }
 .icons ul li {
   list-style: none;
@@ -253,7 +255,7 @@ color: #123cc9;
   position: relative;
   overflow: hidden;
   border: 3px solid #fff;
-  font-size:  25px;
+  font-size:  40px;
   z-index: 1;
 }
 
@@ -293,11 +295,11 @@ color: #fff;
 }
 
 .icons ul li:nth-child(2) a:before {
-  background: #ff0000;
+  background: #FFFC00;
 }
 
 .icons ul li:nth-child(3) a:before {
-  background: #3f729b;
+  background: #ff5700;
 }
 .icons ul li:nth-child(4) a:before {
   background: #e95950;
@@ -317,6 +319,10 @@ background: #ff0000;
 
 .icons ul li:nth-child(8) a:before {
 background: #34465d;
+}
+
+.icons ul li:nth-child(9) a:before {
+background: #25D366;
 }
 
 @media (min-width: 600px){
