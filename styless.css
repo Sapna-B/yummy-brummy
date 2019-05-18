@@ -238,6 +238,7 @@ color: white;
   display: flex;
   position: absolute;
   right: 66.6%;
+padding: 5px;
 transform: translate(100%, 100%);
 
 }
@@ -257,8 +258,8 @@ position: relative;
 overflow: hidden;
 border: 3px solid #fff;
 
-font-size:  50px;
-z-index: 2;
+font-size:  40px;
+z-index: 1;
 }
 
 
@@ -298,7 +299,7 @@ color: #fff;
 }
 
 .icons ul li:nth-child(2) a:before {
-  background: #ffff00;
+  background: #ff0000;
 }
 
 .icons ul li:nth-child(3) a::before {
@@ -321,7 +322,7 @@ background: #ff0000;
 }
 
 .icons ul li:nth-child(8) a::before {
-background: #32506d;
+background: #34465d;
 }
 
 @media (min-width: 600px){

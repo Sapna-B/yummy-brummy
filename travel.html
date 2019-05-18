@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yummy Brummy</title>
+
+    <link href="styless.css" rel="stylesheet"> </link>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link ref="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <div class="banner">
+    <img class="banner-image" src="img/bham12.jpg">
+      <h1 class="header-text">Yummy Brummy</h1>
+  </div>
+
+
+  <ul class="nav-ul d-flex justify-content-center" style="background-color: rgb(144, 209, 196);">
+  <li><a href="index.html">Home</a></li>
+  <li><i class="fas fa-home"></i> </li>
+  <li><a href="reviews.html">Reviews </a></li>
+  <li><i class="fas fa-star"></i></li>
+  <li><a href="signup.html">Sign Up</a></li>
+  <li><i class="fas fa-user-plus"></i></li>
+  <li><a class="active" href="travel.html">Travel Page</li>
+  <li><i class="fas fa-map-signs"></i></li>
+
+   <div class="search-wrapper">
+  <div class="input-holder">
+      <input type="text" class="search-input" placeholder="Search" />
+      <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+  </div>
+  <span class="close" onclick="searchToggle(this, event);"></span>
+  </div>
+  </ul>
+
+
+
+<!--- Travel CSS -->
+		<style type="text/css">
+		body {
+			background: #f6f6f6;
+		}
+
+		.countdownContainer{
+			position: absolute;;
+			top: 50%;
+			left: 50%;
+			transform :  translate(-50%);
+			text-align: center;
+			background: #ddd;
+			border: 1px solid #999;
+			padding: 10px;
+			box-shadow: 0 0 5px 3px #ccc;
+		}
+
+		.info {
+			font-size: 80px;
+		}
+		</style>
+	</head>
+	<body>
+		<table class="countdownContainer">
+			<tr class="info">
+				<td colspan="4">Travel Page Countdown</td>
+			</tr>
+			<tr class="info">
+				<td id="days">120</td>
+				<td id="hours">4</td>
+				<td id="minutes">12</td>
+				<td id="seconds">22</td>
+			</tr>
+			<tr>
+				<td>Days</td>
+				<td>Hours</td>
+				<td>Minutes</td>
+				<td>Seconds</td>
+			</tr>
+		</table>
+		<script type="text/javascript">
+
+			function countdown(){
+				var now = new Date();
+				var eventDate = new Date(2019, 06, 18);
+
+				var currentTiime = now.getTime();
+				var eventTime = eventDate.getTime();
+
+				var remTime = eventTime - currentTiime;
+
+				var s = Math.floor(remTime / 1000);
+				var m = Math.floor(s / 60);
+				var h = Math.floor(m / 60);
+				var d = Math.floor(h / 24);
+
+				h %= 24;
+				m %= 60;
+				s %= 60;
+
+				h = (h < 10) ? "0" + h : h;
+				m = (m < 10) ? "0" + m : m;
+				s = (s < 10) ? "0" + s : s;
+
+				document.getElementById("days").textContent = d;
+				document.getElementById("days").innerText = d;
+
+				document.getElementById("hours").textContent = h;
+				document.getElementById("minutes").textContent = m;
+				document.getElementById("seconds").textContent = s;
+
+				setTimeout(countdown, 1000);
+			}
+
+			countdown();
+		</script>
+
+
+	</body>
+</html>
