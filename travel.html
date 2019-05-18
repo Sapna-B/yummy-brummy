@@ -6,8 +6,8 @@
     <link href="styless.css" rel="stylesheet"> </link>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link ref="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	  <link ref="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
   <div class="banner">
     <img class="banner-image" src="img/bham12.jpg">
@@ -15,7 +15,7 @@
   </div>
 
 
-  <ul class="nav-ul d-flex justify-content-center" style="background-color: rgb(144, 209, 196);">
+<ul class="nav-ul d-flex justify-content-center" style="background-color: rgb(144, 209, 196);">
   <li><a href="index.html">Home</a></li>
   <li><i class="fas fa-home"></i> </li>
   <li><a href="reviews.html">Reviews </a></li>
@@ -25,16 +25,14 @@
   <li><a class="active" href="travel.html">Travel Page</li>
   <li><i class="fas fa-map-signs"></i></li>
 
-   <div class="search-wrapper">
-  <div class="input-holder">
-      <input type="text" class="search-input" placeholder="Search" />
-      <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
-  </div>
-  <span class="close" onclick="searchToggle(this, event);"></span>
-  </div>
-  </ul>
-
-
+   	<div class="search-wrapper">
+  		<div class="input-holder">
+	      <input type="text" class="search-input" placeholder="Search" />
+	      <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+  		</div>
+  	<span class="close" onclick="searchToggle(this, event);"></span>
+  	</div>
+</ul>
 
 <!--- Travel CSS -->
 		<style type="text/css">
@@ -44,22 +42,23 @@
 
 		.countdownContainer{
 			position: absolute;;
-			top: 50%;
+			top: 60%;
 			left: 50%;
 			transform :  translate(-50%);
 			text-align: center;
-			background: #ddd;
+			background: rgb(226,125,96);
 			border: 1px solid #999;
 			padding: 10px;
 			box-shadow: 0 0 5px 3px #ccc;
 		}
 
 		.info {
-			font-size: 80px;
+			font-size: 50px;
 		}
-		</style>
-	</head>
-	<body>
+	</style>
+</head>
+
+<body>
 		<table class="countdownContainer">
 			<tr class="info">
 				<td colspan="4">Travel Page Countdown</td>

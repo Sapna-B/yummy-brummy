@@ -64,18 +64,36 @@ h2 {
   font-size: 20px;
 }
 
+.fas{
+  padding-top: 1em;
+  color:rgb(130, 120, 117);
+}
+
+/* button */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* Search Bar */
+
 .search-wrapper {
 
    position: absolute;
     transform: translate(-50%, -50%);
-    top: 8%;
-    left:90%;
+    top: 12.1em;
+    left: 51em;
+
     float: right;
-    width: 210px;
-
-
+    width: 205px;
 }
+
 .search-wrapper.active {}
 
   .search-wrapper .input-holder {
@@ -85,15 +103,12 @@ h2 {
     border-radius:6px;
     position: relative;
     -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
 .search-wrapper.active .input-holder .search-input:focus {
   width: 100%;
 }
-
-
-
 
 /* Sign up page Form */
 .container {
@@ -214,54 +229,33 @@ color: #123cc9;
   font-size: 1.1em;
 }
 
-.row::after{
-  margin-left: 2px;
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.text-block {
-  float: right;
-  bottom: 20px;
-  right: 20px;
-  background-color: rgb(226,125,96);
-color: white;
-
-
-}
-
-
 /* ICONS */
 
 .icons ul {
   display: flex;
-  position: absolute;
-  right: 66.6%;
-padding: 5px;
-transform: translate(100%, 100%);
-
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  padding-top: 13em;
+  padding-left: 25em;
+  padding-right: 20em;
 }
 .icons ul li {
   list-style: none;
 }
 
 .icons ul li a {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: #fff;
-
   text-align: center;
   margin: 0 2px;
   border-radius: 10px;
-position: relative;
-overflow: hidden;
-border: 3px solid #fff;
-
-font-size:  40px;
-z-index: 1;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  font-size:  25px;
+  z-index: 1;
 }
-
 
 .icons ul li a .fab {
   position: relative;
