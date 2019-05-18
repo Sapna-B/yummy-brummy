@@ -6,14 +6,12 @@
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link ref="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-<script>
-alert("Hi there, welcome to our website!");
-  </script>
+
 
 </head>
+
 <body>
 
   <div class="banner">
@@ -21,32 +19,43 @@ alert("Hi there, welcome to our website!");
       <h1 class="header-text">Yummy Brummy</h1>
   </div>
 
-  <ul class="nav-ul d-flex justify-content-center" style="background-color: rgb(144, 209, 196);">
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><i class="fas fa-home"></i> </li>
-<li><a href="reviews.html">Reviews </a></li>
-  <li><i class="fas fa-star"></i></li>
-  <li><a href="signup.html">Sign Up</a></li>
-<li><i class="fas fa-user-plus"></i></li>
-  <li><a href="travel.html">Travel Page</a></li>
-<li><i class="fas fa-map-signs"></i></li>
+<ul class="nav-ul d-flex justify-content-center" style="background-color: rgb(144, 209, 196);">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><i class="fas fa-home"></i> </li>
+    <li><a href="reviews.html">Reviews </a></li>
+    <li><i class="fas fa-star"></i></li>
+    <li><a href="signup.html">Sign Up</a></li>
+    <li><i class="fas fa-user-plus"></i></li>
+    <li><a href="travel.html">Travel Page</a></li>
+    <li><i class="fas fa-map-signs"></i></li>
 
-   <div class="search-wrapper">
-  <div class="input-holder">
-      <input type="text" class="search-input" placeholder="Search" />
-      <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
-  </div>
-  <span class="close" onclick="searchToggle(this, event);"></span>
-</div>
-  </ul>
+       <div class="search-wrapper">
+         <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Search" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+      </div>
+</ul>
 
 <h2>About Us</h2>
+
+
+<button onclick="myFunction()">What is Yummy Brummy?</button>
+
+<p id="button"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("button").innerHTML = "We are a group of girls on a mission to help you discover new and exciting places to eat within Birmingham. Whatever cuisine you're looking for, we hope to help you discover something new or rediscover old favourites!";
+}
+</script>
 
   <p class="small-size" align=center>
       Welcome to Yummy Brummy! We are a group of girls on a mission to help you discover new and exciting places to eat within Birmingham. Whatever cuisine you're looking for, we hope to help you discover something new or rediscover old favourites!
   </p>
 
-  <div class="icons">
+<div class="icons">
   <ul>
 
     <li><a href="#"><i class="fab fa-facebook"></i></li>
@@ -58,15 +67,11 @@ alert("Hi there, welcome to our website!");
     <li><a href="#"><i class="fab fa-youtube"></i> </li>
     <li><a href="8"><i class="fab fa-tumblr-square"></i> </li>
 
-</ul>
+  </ul>
 </div>
-
 
 </body>
 
-
-
 <script src="yummybrummy/main.js"></script>
-
 
 </html>
