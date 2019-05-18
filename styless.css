@@ -1,10 +1,9 @@
 body {
-color: rgb(0,0,0);
+  color: rgb(0,0,0);
   font-family: arial, helvetica, sans-serif;
   margin: 0px;
   background-color: rgb(226,125,96) !important;
-
-}
+  }
 
 .banner {
   width: 100%;
@@ -323,23 +322,4 @@ background: #ff0000;
 
 .icons ul li:nth-child(8) a::before {
 background: #32506d;
-}
-
-@media (min-width: 600px) {
-.nav-ul {
-font-size: 1.5em;
-
-}
-}
-
-@media {
-
-.icons {
-  width: 100%;
-}
-
-@media {
-  .column {
-    width: 100%;
-  }
 }
