@@ -32,6 +32,12 @@ h2 {
   font-size: 50px !important;
 }
 
+.demo{
+  position: absolute;
+  padding-top: 13em;
+  padding-left: 15em;
+}
+
 -/* Navigation Bar fgh*/
 .nav-ul {
   list-style: none;
@@ -70,16 +76,33 @@ h2 {
 }
 
 /* button */
+.button {
+    background-color: rgb(130, 120, 117);
+    font-weight: bold;
+    color: rgb(144, 209, 196);
+    margin-left: 19em;
+    margin-top: 2.5em;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em 1em 1em 1em;
+    text-transform: uppercase;
+}
+
+.button:hover{
+      background-color: rgb(144, 209, 196);
+      color: white;
+}
+
+/* text from button */
 #button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
+  background-color: transparent;
+  color: black;
   display: inline-block;
-  font-size: 16px;
-
-
+  padding-top: 1em;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 28%;
 }
 
 /* Search Bar */
@@ -302,7 +325,7 @@ color: #fff;
   background: #ff5700;
 }
 .icons ul li:nth-child(4) a:before {
-  background: #e95950;
+  background: #dd2a7b;
 }
 
 .icons ul li:nth-child(5) a:before {
